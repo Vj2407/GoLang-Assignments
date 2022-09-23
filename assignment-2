@@ -1,0 +1,17 @@
+package main
+
+import "fmt"
+
+func add(a, b int) int {
+	for i := 1; i <= b; i++ {
+		a++
+	}
+	return a
+}
+
+func main() {
+
+	a := add(49, 51)
+	fmt.Println("The sum of a and b is: ", a)
+
+}
